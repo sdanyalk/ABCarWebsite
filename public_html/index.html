@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="AIGApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AI Garage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--style sheets-->
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/dk-stylesheet.css">
+
+        <!--vendor stylesheets-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+
+        <!--vendor libraries-->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div ng-include="'pages/shared/header.html'"></div>
+        <div ng-view></div>
+
+        <!--custom scripts-->
+        <script src="app.js"></script>
+        <script src="pages/home/homeController.js"></script>
+        <script src="pages/about/aboutController.js"></script>
+        <script src="pages/contact/contactController.js"></script>
+    </body>
+</html>

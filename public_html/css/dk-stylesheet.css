@@ -1,0 +1,53 @@
+/* 
+    Created on : Nov 29, 2015, 10:28:00 PM
+    Author     : SDK
+*/
+.dk-container{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.top{
+    position: relative;
+    background-color: white;
+    height: 120px;
+}
+
+.dk-top-logo-text {
+    font-family: "Segoe UI", Arial, sans-serif !important;
+    letter-spacing: 4px;
+    padding-top: 50px;
+}
+.dk-right {
+    float: right !important;
+}
+
+.dk-left {
+    float: left !important;
+}
+
+.navbar{
+    margin-bottom: 0;
+    background-color: darkseagreen;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar {
+    color: #3c3c3c !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    letter-spacing: 10px;
+    color: #3c3c3c !important;
+    font-size: 20px !important;
+}
