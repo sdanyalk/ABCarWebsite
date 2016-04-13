@@ -1,5 +1,5 @@
 (function () {
-    
+
     var app = angular.module('AIGApp', ['ngRoute']);
     app.config(routeConfiguration);
 
@@ -23,5 +23,5 @@
                     controller: 'contactController'
                 });
     };
-    
-}());
+
+})();
