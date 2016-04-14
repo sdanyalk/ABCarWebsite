@@ -6,7 +6,7 @@ var path = require('path');
 app.get("/", function (req, res) {
     //res.redirect('/public_html/index.html');
     //res.send('Hello World!');
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/public_html/index.html'));
 });
 
 app.listen(port, function () {
