@@ -3,7 +3,8 @@ var app = express();
 var port = 3000;
 
 app.get("/", function (req, res) {
-    res.redirect('/root/ABCarWebsite/public_html/index.html');
+    //res.redirect('/public_html/index.html');
+    res.send('Hello World!');
 });
 
 app.listen(port, function () {
