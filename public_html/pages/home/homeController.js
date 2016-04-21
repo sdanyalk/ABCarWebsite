@@ -7,6 +7,6 @@
 
     function homeController($scope) {
         $scope.message = "I am home page";
-    };
+    }
 
 })();

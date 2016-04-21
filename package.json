@@ -1,0 +1,15 @@
+{
+  "name": "ABCarWebsite",
+  "version": "1.0.0",
+  "description": "AI car dealership site",
+  "author": "Danyal Khalid",
+  "bugs": "s.danyal.k@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdanyalk/ABCarWebsite.git"
+  },
+  "dependencies": {
+    "express": "^4.0"
+  },
+  "license": "ISC"
+}
