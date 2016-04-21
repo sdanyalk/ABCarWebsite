@@ -1,6 +1,7 @@
 (function () {
 
-    var app = angular.module('AIGApp');
+    var app = angular.module('contactModule');
+
     app.controller("contactController", contactController);
     contactController.$inject = ['$scope'];
 

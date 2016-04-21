@@ -1,6 +1,6 @@
 (function () {
 
-    var app = angular.module('AIGApp', ['ngRoute']);
+    var app = angular.module('mainModule', ['homeModule', 'aboutModule', 'contactModule', 'ngRoute']);
     app.config(routeConfiguration);
 
     function routeConfiguration($routeProvider) {
@@ -21,6 +21,9 @@
                 .when('/contact', {
                     templateUrl: 'pages/contact/contactView.html',
                     controller: 'contactController'
+                })
+                .otherwise({
+                    /*TO DO*/
                 });
     };
 

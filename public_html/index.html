@@ -1,35 +1,38 @@
 ﻿<!DOCTYPE html>
-<html lang="en" ng-app="AIGApp">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>AI Garage</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AI Garage</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--style sheets-->
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="/public_html/css/dk-stylesheet.css">
+    <!--style sheets-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/public_html/css/dk-stylesheet.css">
 
-        <!--vendor stylesheets-->
-        <link rel="stylesheet" href="/public_html/node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/public_html/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/public_html/node_modules/font-awesome/css/font-awesome.min.css">
+    <!--vendor stylesheets-->
+    <link rel="stylesheet" href="/public_html/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public_html/node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/public_html/node_modules/font-awesome/css/font-awesome.min.css">
 
-        <!--vendor libraries-->
-        <script src="/public_html/node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="/public_html/node_modules/angular/angular.min.js"></script>
-        <script src="/public_html/node_modules/angular-route/angular-route.min.js"></script>
-        <script src="/public_html/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--vendor libraries-->
+    <script src="/public_html/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/public_html/node_modules/angular/angular.min.js"></script>
+    <script src="/public_html/node_modules/angular-route/angular-route.min.js"></script>
+    <script src="/public_html/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <!--custom scripts-->
-        <script src="/public_html/app.js"></script>
-        <script src="/public_html/pages/home/homeController.js"></script>
-        <script src="/public_html/pages/about/aboutController.js"></script>
-        <script src="/public_html/pages/contact/contactController.js"></script>
-    </head>
-    <body>
-        <div ng-include="'pages/shared/header.html'"></div>
-        <div ng-view></div>
-    </body>
+    <!--custom scripts-->
+    <script src="/public_html/app.js"></script>
+    <script src="/public_html/pages/home/homeModule.js"></script>
+    <script src="/public_html/pages/home/homeController.js"></script>
+    <script src="/public_html/pages/about/aboutModule.js"></script>
+    <script src="/public_html/pages/about/aboutController.js"></script>
+    <script src="/public_html/pages/contact/contactModule.js"></script>
+    <script src="/public_html/pages/contact/contactController.js"></script>
+</head>
+<body ng-app="mainModule">
+    <div ng-include="'pages/shared/header.html'"></div>
+    <div ng-view></div>
+</body>
 </html>
